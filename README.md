@@ -8,22 +8,29 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import numpy as np
+2. Get the input values
+3. Find the solution of a matrix using Gaussian elimination
+4. End the program
 
 ## Program:
 ```
 /*
 Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: 
-RegisterNumber: 
+Developed by: Anbu Vinotha.S
+RegisterNumber:23013363 
+# To print L and U matrix
+import numpy as np
+from scipy.linalg import lu
+A = np.array(eval(input()))
+P,L,U=lu(A)
+print(L)
+print(U)
 */
 ```
 
-## Output:
-![gaussian elimination]()
+## Output!
+![output](<gaussian ss.png>)elimination]()
 
 
 ## Result:
